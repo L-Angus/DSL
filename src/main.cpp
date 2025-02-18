@@ -19,8 +19,8 @@ int main() {
   std::cout << myList->empty() << std::endl;
   std::cout << myList->contains("王") << std::endl;
 
-  myList->remove("李");
-  myList->remove("郑");
+  // myList->remove("李");
+  // myList->remove("郑");
   myList->print();
   return 0;
 }
