@@ -4,6 +4,8 @@
 #include <iostream>
 
 // 单链表
+template <typename T> class ListNode {};
+template <typename T> class LinkedListNode {};
 
 /**
  * 双链表 DoublyLinkedList
