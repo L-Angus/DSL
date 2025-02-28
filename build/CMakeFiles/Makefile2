@@ -81,12 +81,12 @@ clean: CMakeFiles/AlgorithmCpp.dir/clean
 CMakeFiles/AlgorithmCpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmCpp.dir/build.make CMakeFiles/AlgorithmCpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmCpp.dir/build.make CMakeFiles/AlgorithmCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/lishundong/Desktop/2023/DataStructure&Algorithm/build/CMakeFiles" --progress-num=1,2,3 "Built target AlgorithmCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/lishundong/Desktop/2023/DataStructure&Algorithm/build/CMakeFiles" --progress-num=1,2 "Built target AlgorithmCpp"
 .PHONY : CMakeFiles/AlgorithmCpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AlgorithmCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lishundong/Desktop/2023/DataStructure&Algorithm/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lishundong/Desktop/2023/DataStructure&Algorithm/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AlgorithmCpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lishundong/Desktop/2023/DataStructure&Algorithm/build/CMakeFiles" 0
 .PHONY : CMakeFiles/AlgorithmCpp.dir/rule
