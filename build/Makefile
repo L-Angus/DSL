@@ -129,6 +129,30 @@ AlgorithmCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmCpp.dir/build.make CMakeFiles/AlgorithmCpp.dir/build
 .PHONY : AlgorithmCpp/fast
 
+src/ProcessRawData.o: src/ProcessRawData.cpp.o
+.PHONY : src/ProcessRawData.o
+
+# target to build an object file
+src/ProcessRawData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmCpp.dir/build.make CMakeFiles/AlgorithmCpp.dir/src/ProcessRawData.cpp.o
+.PHONY : src/ProcessRawData.cpp.o
+
+src/ProcessRawData.i: src/ProcessRawData.cpp.i
+.PHONY : src/ProcessRawData.i
+
+# target to preprocess a source file
+src/ProcessRawData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmCpp.dir/build.make CMakeFiles/AlgorithmCpp.dir/src/ProcessRawData.cpp.i
+.PHONY : src/ProcessRawData.cpp.i
+
+src/ProcessRawData.s: src/ProcessRawData.cpp.s
+.PHONY : src/ProcessRawData.s
+
+# target to generate assembly for a file
+src/ProcessRawData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmCpp.dir/build.make CMakeFiles/AlgorithmCpp.dir/src/ProcessRawData.cpp.s
+.PHONY : src/ProcessRawData.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AlgorithmCpp"
+	@echo "... src/ProcessRawData.o"
+	@echo "... src/ProcessRawData.i"
+	@echo "... src/ProcessRawData.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
