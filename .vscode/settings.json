@@ -55,6 +55,8 @@
           "algorithm": "cpp",
           "functional": "cpp",
           "map": "cpp",
-          "__tree": "cpp"
+          "__tree": "cpp",
+          "unordered_set": "cpp",
+          "set": "cpp"
      }
 }
